@@ -1,9 +1,10 @@
 local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/Rayfield/main/source'))()
 
 
-local loadedKey = loadstring(game:HttpGet('https://raw.githubusercontent.com/crxts24/key/main/key'))()
+local loadedKey = loadstring(game:HttpGet('https://raw.githubusercontent.com/crxts24/first-key/main/key%20spfs'))()
 
 print(loadedKey)
+
 
 getgenv().inputKey = ""
 
@@ -42,7 +43,7 @@ function LoadMain()
      local Button = Tab:CreateButton({
       Name = "AutoFarm All",
       Callback = function()
-         loadstring(game:HttpGet('https://raw.githubusercontent.com/crxts24/SPFS_AUTOFARM/main/SPFS_AUTOFARM'))()
+         loadstring(game:HttpGet('https://github.com/crxts24/gui/blob/main/SPFS_GUI_AUTOFARM'))()
       end,
    })
 
